@@ -1,33 +1,184 @@
 <htnl>
-    <style>
-        .container {
-            padding: 16px;
-            border: 1px solid rgb(211, 211, 211);
-        }
+  <style>
+    body {
+      margin: unset;
+    }
+    .page {
+      width: 100vw;
+      height: 100vh;
+      background-color: #f3f3f3;
+      overflow: auto;
+    }
+    .container {
+      border: 1px solid rgb(211, 211, 211);
+      background-color: white;
+      width: 600px;
+      max-width: 80vw;
+      margin: 32px auto;
+    }
 
-        .h1, h2, h3, p, span {
-            font-family: 'Courier New', Courier, monospace;
-            color: rgb(119, 118, 118);
-        }
+    h1,
+    h2,
+    h3,
+    p,
+    strong,
+    span {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(119, 118, 118);
+    }
 
-        .h1 {
-            font-size: 22px;
-        }
+    h1 {
+      font-size: 24px;
+      color: #002e73;
+    }
 
-        .h2 {
-            font-size: 18px;
-        }
+    h2 {
+      font-size: 18px;
+    }
 
-        .h3 {
-            font-size: 16px;
-        }
+    h3 {
+      font-size: 16px;
+    }
 
-        .p, span {
-            font-size: 13px;
-        }
-    </style>
+    p,
+    span {
+      font-size: 13px;
+    }
 
+    strong {
+      color: #363636;
+    }
+
+    .header {
+      width: 100%;
+      position: relative;
+    }
+
+    .background-header {
+      width: 100%;
+    }
+
+    .body {
+      width: 100%;
+    }
+
+    .separator {
+      background-color: #dddddd;
+      height: 1px;
+      margin: 0 32px 32px 32px;
+    }
+
+    .footer {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .mini-logo {
+      margin: 0 auto;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    td {
+      text-align: center;
+    }
+
+    .config {
+      margin: 0 auto;
+      width: 70%;
+    }
+
+    .button {
+      border-radius: 8px;
+      background-color: #7b3dff;
+      padding: 16px;
+      margin: 0 auto;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 14px;
+      width: 100%;
+    }
+
+    .padding-y {
+      padding: 0 32px;
+    }
+  </style>
+  <div class="page">
     <div class="container">
-        ##content##
+      <div class="header">
+        <img class="background-header" src="@@background_header@@" alt="" />
+        <div class="separator"></div>
+      </div>
+      <br />
+      <div class="body"></div>
+      <br />
+      <br />
+      <br />
+      <div class="footer">
+        <div class="padding-y">
+          <strong>Abraços,</strong>
+        </div>
+        <div class="padding-y">
+          <strong>Equipe Zoppy</strong>
+        </div>
+        <br />
+        <br />
+        <div class="separator"></div>
+
+        <table>
+          <th>
+            <img src="@@small_logo@@" class="mini-logo" />
+            <br />
+            <br />
+            <br />
+          </th>
+          <tr>
+            <td>
+              <span>E-mail automático, não é necessário respondê-lo.</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <br />
+              <span>Zoppy - 460.160.998/0001-92</span>
+              <br />
+              <br />
+              <br />
+            </td>
+          </tr>
+        </table>
+
+        <table>
+          <tr>
+            <td>
+              <a
+                href="##whatsapp##"
+                style="margin-left: 8px; text-decoration: none"
+              >
+                <img src="@@whatsapp@@" alt="" />
+              </a>
+              <a
+                href="##linkedin##"
+                style="margin-left: 8px; text-decoration: none"
+              >
+                <img src="@@linkedin@@" alt="" />
+              </a>
+              <a
+                href="##instagram##"
+                style="margin-left: 8px; text-decoration: none"
+              >
+                <img src="@@instagram@@" alt="" />
+              </a>
+            </td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+      </div>
     </div>
+  </div>
 </htnl>
