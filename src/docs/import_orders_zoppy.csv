@@ -1,0 +1,1 @@
+Identificador(combinação de caracteres unica para identificar o pedido),Celular,Data de conclusão(dd/mm/yyyy),Status(completed | on-hold | cancelled | processing | pending | failed | refunded ),Total(valor total do pedido ex: 500.99),Data de criação(dd/mm/yyyy),Email do usuario responsavel,Site?(S ou N),Nome da loja,Utilizou giftback? (S ou N), Coupon
