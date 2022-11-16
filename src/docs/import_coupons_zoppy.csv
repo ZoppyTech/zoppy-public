@@ -1,1 +1,1 @@
-Codigo,Tipo(fixed-cart|percent),Celular,Total,Data_de_inicio(dd/mm/yyyy),Data_de_expiracao(dd/mm/yyyy),Valor_minimo(500.99),Descricao,Usado(S_ou_N),Valor_maximo_percentual(0_a_100)
+Codigo,Tipo(fixed_cart|percent),Celular,Total,Data_de_inicio(dd/mm/yyyy),Data_de_expiracao(dd/mm/yyyy),Valor_minimo(500.99),Descricao,Usado(S_ou_N),Valor_maximo_percentual(0_a_100)
